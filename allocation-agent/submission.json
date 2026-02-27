@@ -1,0 +1,38 @@
+{
+  "team_name": "Arryl's Team",
+  "members": [
+    "Arryl"
+  ],
+  "architecture_summary": "Three-scorer ensemble: financial strength (growth + margin), risk assessment (volatility + leverage + operational risk with constraint penalties), and news sentiment. Weighted combination with risk heaviest (45%) for cautious investor profile.",
+  "data_cleaning_steps": [
+    "Parsed CSV with type validation; missing values set to None",
+    "Flagged CORRUPTED rows for penalty treatment",
+    "Imputed missing ESG via penalized median (0.9x for corrupted)"
+  ],
+  "constraint_translation": {
+    "moderate_risk": "Volatility below 25.0",
+    "avoid_excess_leverage": "Debt_to_Equity below 1.5",
+    "esg_priority": "Minimum ESG score 75",
+    "stability": "True"
+  },
+  "scoring_methodology": {
+    "financial_weight": 0.3,
+    "risk_weight": 0.45,
+    "news_weight": 0.25,
+    "description": "Financial: 40% growth + 60% margin. Risk: normalized volatility + leverage + operational risk, minus 0.3 penalty per constraint breach. News: keyword sentiment [-1,1] mapped to [0,1]. Combined: 30% financial + 45% risk + 25% news."
+  },
+  "final_ranking": [
+    "Helios Renewables",
+    "GreenGrid Storage",
+    "EcoGen Power",
+    "NorthSea Wind",
+    "SolaraTech UK"
+  ],
+  "recommended_company": "Helios Renewables",
+  "confidence_score": 0.58,
+  "uncertainty_factors": [
+    "Top 2 scores very close (gap=0.038)",
+    "Corrupted data present"
+  ],
+  "runtime_seconds": 0.0
+}

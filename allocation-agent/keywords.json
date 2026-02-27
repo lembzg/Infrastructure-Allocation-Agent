@@ -1,0 +1,18 @@
+{
+    "positive": [
+        "secured", "contract", "breakthrough", "growth", "award", "partnership",
+        "expansion", "subsidies", "increase", "cleared", "approved", "innovation",
+        "efficiency", "stable", "fixed", "reducing uncertainty", "government contract",
+        "long-term", "profitable", "record", "upgrade", "outperform"
+    ],
+    "negative": [
+        "defects", "regulatory review", "debt financing", "aggressive", "discrepancies",
+        "risk", "not yet validated", "investigation", "decline", "loss",
+        "penalty", "litigation", "default", "downgrade", "volatile", "layoffs",
+        "reporting issues", "breach", "fraud", "delay", "shutdown"
+    ],
+    "uncertainty": [
+        "though", "may", "potential", "not yet", "under review", "minor",
+        "could", "if", "pending", "unclear", "disputed", "rumor", "alleged"
+    ]
+}

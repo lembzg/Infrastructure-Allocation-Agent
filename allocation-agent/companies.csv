@@ -1,0 +1,6 @@
+Company,Revenue_Growth_3Y,EBITDA_Margin,Debt_to_Equity,Volatility_1Y,ESG_Score,Operational_Risk,Data_Quality_Flag
+Helios Renewables,18.5,22.1,0.8,14.2,78,Low,OK
+NorthSea Wind,21.2,14.4,1.3,19.8,85,High,OK
+GreenGrid Storage,15.7,25.9,0.5,12.1,72,Low,OK
+SolaraTech UK,28.9,9.3,2.4,31.5,88,High,OK
+EcoGen Power,17.2,21.4,0.9,13.8,61,Medium,CORRUPTED
