@@ -116,4 +116,4 @@ Python 3.x standard library only. No pip installs required.
 
 ## Built For
 
-BNY AI Hub Challenge — University of Manchester AI & Data Science Society
+BNY AI Hub Challenge and University of Manchester AI & Data Science Society
