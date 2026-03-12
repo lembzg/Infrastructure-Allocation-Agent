@@ -1,4 +1,4 @@
-# Infrastructure Allocation Agent
+# Investment Allocation Agent
 
 A self-correcting investment recommendation engine built for the BNY AI Hub Challenge. Given structured financial data, unstructured news, and a client profile, the agent scores and ranks UK renewable infrastructure companies and recommends the best fit for a cautious institutional investor.
 
